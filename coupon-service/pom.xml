@@ -8,7 +8,7 @@
 		<version>3.2.1</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.spring.devops</groupId>
+	<groupId>com.coupon.dervice</groupId>
 	<artifactId>coupon-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>coupon-service</name>

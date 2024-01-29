@@ -8,11 +8,11 @@
 		<version>3.2.1</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.product.service</groupId>
-	<artifactId>product-service</artifactId>
+	<groupId>com.flight.service</groupId>
+	<artifactId>flight-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>product-service</name>
-	<description>This is Product Service project for Spring Boot.</description>
+	<name>flight-service</name>
+	<description>This is flight service.</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
