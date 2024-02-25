@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: flight-app
+  labels:
+    app: flight-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: flight-app
+  template:
+    metadata:
+      name: flight-app
+      labels:
+        app: flight-app
+    spec:
+      containers:
+        - name: flight-app
+          image: tanver705/flight_app
+          imagePullPolicy: IfNotPresent
+      restartPolicy: Always
