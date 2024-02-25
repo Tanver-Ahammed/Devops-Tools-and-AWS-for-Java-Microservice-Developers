@@ -2,7 +2,7 @@ version: '3'
 services:
   coupon-app:
     container_name: coupon-app
-    image: coupon_app
+    image: tanver705/coupon_app
     restart: on-failure
     ports:
       - "10555:8081"
@@ -12,7 +12,7 @@ services:
       - docker-mysql
   product-app:
     container_name: product-app
-    image: product_app
+    image: tanver705/product_app
     restart: on-failure
     ports:
       - "10666:8082"
@@ -23,7 +23,7 @@ services:
       - coupon-app
   flight-app:
     container_name: flight-app
-    image: flight_app
+    image: tanver705/flight_app
     restart: on-failure
     ports:
       - "10777:8083"
